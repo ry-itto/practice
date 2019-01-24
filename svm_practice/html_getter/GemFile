@@ -1,0 +1,1 @@
+gem 'extractcontent', :git => 'https://github.com/mono0x/extractcontent.git'
