@@ -8,8 +8,7 @@ Swift
 ### 内容
 カスタムビューのサンプル
 
-
-## go_practice
+## go_practiceあ
 ### 言語
 Go
 ### 内容
@@ -21,3 +20,8 @@ Python, Ruby
 ### 内容
 SVMでの文章解析練習
 
+## redux-calculator
+### 言語
+JavaScript(React使用)
+### 内容
+Qiitaの記事を元に計算機を作成
