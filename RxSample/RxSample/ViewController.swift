@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         }
         
         // Publish(RxCocoaを使用してbindを利用した実装)
+        // bind内でpublishを利用しようとするとOptionalのため，nilの可能性がある関係で「Generic parameter 'Self' could not be inferred」が発生する
         _ = viewModel.publishObservable
             .map({"\($0)"})
             .bind(to: pLabel.rx.text)
