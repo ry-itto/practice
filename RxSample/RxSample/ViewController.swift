@@ -11,15 +11,35 @@ import RxSwift
 
 class ViewController: UIViewController {
     
-    @IBOutlet var label: UILabel?
+    @IBOutlet var publish: UILabel?
+    @IBOutlet var behavior: UILabel?
+    @IBOutlet var variable: UILabel?
     
     let viewModel = ViewModel()
     private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        _ = viewModel.observable.subscribe(onNext: { [unowned self] count in
-            self.label?.text = "\(count)"
+        
+        // Publish
+        _ = viewModel.publishObservable.subscribe(onNext: { [unowned self] count in
+            DispatchQueue.main.async {
+                self.publish?.text = "\(count)"
+            }
         }).disposed(by: disposeBag)
+        
+        // Behavior
+        _ = viewModel.behaviorObservable.subscribe(onNext: { [unowned self] count in
+            DispatchQueue.main.async {
+                self.behavior?.text = "\(count)"
+            }
+        }).disposed(by: disposeBag)
+        
+        // Variable
+        _ = viewModel.countObservable.subscribe(onNext: { [unowned self] count in
+            DispatchQueue.main.async {
+                self.variable?.text = "\(count)"
+            }
+        })
     }
 }
