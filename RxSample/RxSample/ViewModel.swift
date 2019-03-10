@@ -17,11 +17,9 @@ class ViewModel {
     
     init() {
         observable = subject.asObservable()
-    }
-    
-    func countUp() {
-        count += 1
-        print("current count is \(count)")
-        subject.asObserver().onNext(count)
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [unowned self] _ in
+            self.count += 1
+            self.subject.asObserver().onNext(self.count)
+        }
     }
 }

@@ -22,8 +22,4 @@ class ViewController: UIViewController {
             self.label?.text = "\(count)"
         }).disposed(by: disposeBag)
     }
-
-    @IBAction func countUp(_ sender: UIButton) {
-        viewModel.countUp()
-    }
 }
