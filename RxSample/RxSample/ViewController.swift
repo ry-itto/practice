@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
     
@@ -21,21 +22,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Publish
-        _ = viewModel.publishObservable.subscribe(onNext: { [unowned self] count in
-            DispatchQueue.main.async {
-                self.publish?.text = "\(count)"
-            }
-        }).disposed(by: disposeBag)
+        guard let pLabel = publish,
+            let bLabel = behavior
+            else {
+                return
+        }
         
-        // Behavior
-        _ = viewModel.behaviorObservable.subscribe(onNext: { [unowned self] count in
-            DispatchQueue.main.async {
-                self.behavior?.text = "\(count)"
-            }
-        }).disposed(by: disposeBag)
+        // Publish(RxCocoaを使用してbindを利用した実装)
+        _ = viewModel.publishObservable
+            .map({"\($0)"})
+            .bind(to: pLabel.rx.text)
+            .disposed(by: disposeBag)
         
-        // Variable
+        // Behavior(RxCocoaを使用してbindを利用した実装)
+        _ = viewModel.behaviorObservable
+            .map({"\($0)"})
+            .bind(to: bLabel.rx.text)
+            .disposed(by: disposeBag)
+        
+        // Variable(Subscribeでの実装)
         _ = viewModel.countObservable.subscribe(onNext: { [unowned self] count in
             DispatchQueue.main.async {
                 self.variable?.text = "\(count)"
