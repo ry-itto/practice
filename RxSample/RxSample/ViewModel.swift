@@ -39,9 +39,9 @@ class ViewModel {
         behaviorObservable = behaviorSubject.asObservable()
         countObservable = countVar.asObservable()
         self.textField = textField
-        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in
-            self?.count += 1
-            self?.countVar.value += 1
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { _ in
+            self.count +=  1
+            self.countVar.value += 1
         }
     }
 }
