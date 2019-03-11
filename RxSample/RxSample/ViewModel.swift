@@ -25,6 +25,8 @@ class ViewModel {
     let behaviorObservable: Observable<Int>
     let countObservable: Observable<Int>
     
+    let textField: Observable<String>
+    
     private var count: Int = 0 {
         didSet {
             self.publishSubject.asObserver().onNext(self.count)
@@ -32,13 +34,14 @@ class ViewModel {
         }
     }
     
-    init() {
+    init(textField: Observable<String>) {
         publishObservable = publishSubject.asObservable()
         behaviorObservable = behaviorSubject.asObservable()
         countObservable = countVar.asObservable()
-        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [unowned self] _ in
-            self.count += 1
-            self.countVar.value += 1
+        self.textField = textField
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in
+            self?.count += 1
+            self?.countVar.value += 1
         }
     }
 }

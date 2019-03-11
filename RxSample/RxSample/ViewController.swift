@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet var publish: UILabel?
     @IBOutlet var behavior: UILabel?
     @IBOutlet var variable: UILabel?
+    @IBOutlet var textField: UITextField?
     
-    let viewModel = ViewModel()
     private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
@@ -24,10 +24,13 @@ class ViewController: UIViewController {
         
         guard
             let pLabel = publish,
-            let bLabel = behavior
+            let bLabel = behavior,
+            let textField = textField
         else {
             return
         }
+        
+        let viewModel = ViewModel(textField: textField.rx.text.orEmpty.asObservable())
         
         // Publish(RxCocoaを使用してbindを利用した実装, 3回しかイベントが流れ切らない)
         // bind内でpublishを利用しようとするとOptionalのため，nilの可能性がある関係で「Generic parameter 'Self' could not be inferred」が発生する
@@ -51,5 +54,15 @@ class ViewController: UIViewController {
                 self.variable?.text = "\(count)"
             }
         })
+        
+        _ = textField.rx.text.orEmpty
+            .asObservable()
+            .subscribe(onNext: { [unowned self] input in
+                if input.count > 5 {
+                    self.textField?.backgroundColor = UIColor.red
+                } else {
+                    self.textField?.backgroundColor = UIColor.white
+                }
+            })
     }
 }
