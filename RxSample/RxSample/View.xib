@@ -13,7 +13,9 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="RxSample" customModuleProvider="target">
             <connections>
                 <outlet property="behavior" destination="j8W-k6-649" id="kst-BA-96O"/>
+                <outlet property="button" destination="YX6-zK-KgT" id="QKw-io-bWZ"/>
                 <outlet property="publish" destination="niY-Qg-Ynr" id="1Ku-l0-EWO"/>
+                <outlet property="sample" destination="Poy-fk-u4z" id="DMy-sJ-IUg"/>
                 <outlet property="variable" destination="JIA-r2-paG" id="Fvi-LY-WZB"/>
                 <outlet property="view" destination="iN0-l3-epB" id="IPg-HM-5yc"/>
             </connections>
@@ -39,6 +41,18 @@
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIA-r2-paG">
                     <rect key="frame" x="166" y="323" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YX6-zK-KgT">
+                    <rect key="frame" x="265" y="411" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Poy-fk-u4z">
+                    <rect key="frame" x="166" y="416" width="42" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
