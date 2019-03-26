@@ -43,9 +43,3 @@ RxSwift, RxCocoaの練習用.
 Swift
 ### 内容
 UIPresentationControllerの実装サンプル
-
-## RxDataSourcesSample
-### 言語
-Swift 
-### 内容
-RxDataSourcesの実装サンプル
