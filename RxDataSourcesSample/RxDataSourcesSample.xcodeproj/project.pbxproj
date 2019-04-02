@@ -8,18 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		BFFED618224A664F00799811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED617224A664F00799811 /* AppDelegate.swift */; };
-		BFFED61A224A664F00799811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED619224A664F00799811 /* ViewController.swift */; };
 		BFFED61F224A665300799811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFED61E224A665300799811 /* Assets.xcassets */; };
 		BFFED622224A665300799811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFED620224A665300799811 /* LaunchScreen.storyboard */; };
+		BFFED62B224A6B3B00799811 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED62A224A6B3B00799811 /* SampleData.swift */; };
+		BFFED62E224A6BE000799811 /* FruitOnlyNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED62C224A6BE000799811 /* FruitOnlyNameCell.swift */; };
+		BFFED62F224A6BE000799811 /* FruitOnlyNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFED62D224A6BE000799811 /* FruitOnlyNameCell.xib */; };
+		BFFED632224A6C3100799811 /* FruitDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED630224A6C3100799811 /* FruitDetailCell.swift */; };
+		BFFED633224A6C3100799811 /* FruitDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFED631224A6C3100799811 /* FruitDetailCell.xib */; };
+		BFFED636224A6F6C00799811 /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED634224A6F6C00799811 /* FruitTableViewController.swift */; };
+		BFFED637224A6F6C00799811 /* FruitTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFED635224A6F6C00799811 /* FruitTableViewController.xib */; };
+		BFFED639224A703000799811 /* FruitTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED638224A703000799811 /* FruitTableViewModel.swift */; };
+		BFFED63E224A70CA00799811 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFED63B224A70CA00799811 /* RxDataSources.framework */; };
+		BFFED63F224A70CB00799811 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFED63C224A70CA00799811 /* RxCocoa.framework */; };
+		BFFED640224A70CB00799811 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFED63D224A70CA00799811 /* RxSwift.framework */; };
+		BFFED645224A840400799811 /* FruitTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFED644224A840400799811 /* FruitTableDelegate.swift */; };
+		BFFED647224A8AC300799811 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFED646224A8AC300799811 /* Differentiator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFFED614224A664F00799811 /* RxDataSourcesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxDataSourcesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFED617224A664F00799811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFFED619224A664F00799811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFFED61E224A665300799811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFED621224A665300799811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFFED623224A665300799811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFED62A224A6B3B00799811 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		BFFED62C224A6BE000799811 /* FruitOnlyNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitOnlyNameCell.swift; sourceTree = "<group>"; };
+		BFFED62D224A6BE000799811 /* FruitOnlyNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitOnlyNameCell.xib; sourceTree = "<group>"; };
+		BFFED630224A6C3100799811 /* FruitDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailCell.swift; sourceTree = "<group>"; };
+		BFFED631224A6C3100799811 /* FruitDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitDetailCell.xib; sourceTree = "<group>"; };
+		BFFED634224A6F6C00799811 /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
+		BFFED635224A6F6C00799811 /* FruitTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitTableViewController.xib; sourceTree = "<group>"; };
+		BFFED638224A703000799811 /* FruitTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewModel.swift; sourceTree = "<group>"; };
+		BFFED63B224A70CA00799811 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		BFFED63C224A70CA00799811 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		BFFED63D224A70CA00799811 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		BFFED644224A840400799811 /* FruitTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableDelegate.swift; sourceTree = "<group>"; };
+		BFFED646224A8AC300799811 /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFED647224A8AC300799811 /* Differentiator.framework in Frameworks */,
+				BFFED63E224A70CA00799811 /* RxDataSources.framework in Frameworks */,
+				BFFED63F224A70CB00799811 /* RxCocoa.framework in Frameworks */,
+				BFFED640224A70CB00799811 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +66,7 @@
 			children = (
 				BFFED616224A664F00799811 /* RxDataSourcesSample */,
 				BFFED615224A664F00799811 /* Products */,
+				BFFED63A224A70CA00799811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +82,39 @@
 			isa = PBXGroup;
 			children = (
 				BFFED617224A664F00799811 /* AppDelegate.swift */,
-				BFFED619224A664F00799811 /* ViewController.swift */,
 				BFFED61E224A665300799811 /* Assets.xcassets */,
-				BFFED620224A665300799811 /* LaunchScreen.storyboard */,
+				BFFED630224A6C3100799811 /* FruitDetailCell.swift */,
+				BFFED631224A6C3100799811 /* FruitDetailCell.xib */,
+				BFFED62C224A6BE000799811 /* FruitOnlyNameCell.swift */,
+				BFFED62D224A6BE000799811 /* FruitOnlyNameCell.xib */,
+				BFFED644224A840400799811 /* FruitTableDelegate.swift */,
+				BFFED634224A6F6C00799811 /* FruitTableViewController.swift */,
+				BFFED635224A6F6C00799811 /* FruitTableViewController.xib */,
+				BFFED638224A703000799811 /* FruitTableViewModel.swift */,
 				BFFED623224A665300799811 /* Info.plist */,
+				BFFED620224A665300799811 /* LaunchScreen.storyboard */,
+				BFFED629224A6B2800799811 /* Sample */,
 			);
 			path = RxDataSourcesSample;
+			sourceTree = "<group>";
+		};
+		BFFED629224A6B2800799811 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BFFED62A224A6B3B00799811 /* SampleData.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		BFFED63A224A70CA00799811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFFED646224A8AC300799811 /* Differentiator.framework */,
+				BFFED63C224A70CA00799811 /* RxCocoa.framework */,
+				BFFED63B224A70CA00799811 /* RxDataSources.framework */,
+				BFFED63D224A70CA00799811 /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +127,7 @@
 				BFFED610224A664F00799811 /* Sources */,
 				BFFED611224A664F00799811 /* Frameworks */,
 				BFFED612224A664F00799811 /* Resources */,
+				BFFED641224A70D800799811 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -120,19 +177,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFED622224A665300799811 /* LaunchScreen.storyboard in Resources */,
+				BFFED637224A6F6C00799811 /* FruitTableViewController.xib in Resources */,
+				BFFED633224A6C3100799811 /* FruitDetailCell.xib in Resources */,
+				BFFED62F224A6BE000799811 /* FruitOnlyNameCell.xib in Resources */,
 				BFFED61F224A665300799811 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFFED641224A70D800799811 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFFED610224A664F00799811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFED61A224A664F00799811 /* ViewController.swift in Sources */,
+				BFFED62B224A6B3B00799811 /* SampleData.swift in Sources */,
 				BFFED618224A664F00799811 /* AppDelegate.swift in Sources */,
+				BFFED639224A703000799811 /* FruitTableViewModel.swift in Sources */,
+				BFFED632224A6C3100799811 /* FruitDetailCell.swift in Sources */,
+				BFFED645224A840400799811 /* FruitTableDelegate.swift in Sources */,
+				BFFED636224A6F6C00799811 /* FruitTableViewController.swift in Sources */,
+				BFFED62E224A6BE000799811 /* FruitOnlyNameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +361,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFY27HWN2G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxDataSourcesSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +383,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFY27HWN2G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxDataSourcesSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -43,3 +43,9 @@ RxSwift, RxCocoaの練習用.
 Swift
 ### 内容
 UIPresentationControllerの実装サンプル
+
+## GestureSample
+### 言語
+Swift
+### 内容
+UIGestureRecognizerをいろいろ使ってみたサンプル
