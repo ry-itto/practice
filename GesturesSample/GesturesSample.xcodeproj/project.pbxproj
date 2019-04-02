@@ -12,6 +12,8 @@
 		BF6B23EE2253A40F0075065D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6B23EC2253A40F0075065D /* LaunchScreen.storyboard */; };
 		BF6B23F72253A45B0075065D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B23F52253A45B0075065D /* ViewController.swift */; };
 		BF6B23F82253A45B0075065D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6B23F62253A45B0075065D /* ViewController.xib */; };
+		BF6B23FB2253B3440075065D /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B23F92253B3440075065D /* InteractiveViewController.swift */; };
+		BF6B23FC2253B3440075065D /* InteractiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6B23FA2253B3440075065D /* InteractiveViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF6B23EF2253A40F0075065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6B23F52253A45B0075065D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF6B23F62253A45B0075065D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BF6B23F92253B3440075065D /* InteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
+		BF6B23FA2253B3440075065D /* InteractiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				BF6B23E32253A40C0075065D /* AppDelegate.swift */,
 				BF6B23EA2253A40F0075065D /* Assets.xcassets */,
 				BF6B23EF2253A40F0075065D /* Info.plist */,
+				BF6B23F92253B3440075065D /* InteractiveViewController.swift */,
+				BF6B23FA2253B3440075065D /* InteractiveViewController.xib */,
 				BF6B23EC2253A40F0075065D /* LaunchScreen.storyboard */,
 				BF6B23F52253A45B0075065D /* ViewController.swift */,
 				BF6B23F62253A45B0075065D /* ViewController.xib */,
@@ -125,6 +131,7 @@
 				BF6B23EE2253A40F0075065D /* LaunchScreen.storyboard in Resources */,
 				BF6B23F82253A45B0075065D /* ViewController.xib in Resources */,
 				BF6B23EB2253A40F0075065D /* Assets.xcassets in Resources */,
+				BF6B23FC2253B3440075065D /* InteractiveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6B23FB2253B3440075065D /* InteractiveViewController.swift in Sources */,
 				BF6B23F72253A45B0075065D /* ViewController.swift in Sources */,
 				BF6B23E42253A40C0075065D /* AppDelegate.swift in Sources */,
 			);
