@@ -41,4 +41,13 @@ class ViewModel {
             self.countVar.value += 1
         }
     }
+    
+    // Cold
+    func createColdObservable(n: Int) -> Observable<Int> {
+        return Observable.create { observerType -> Disposable in
+            observerType.onNext(n)
+            observerType.onCompleted()
+            return Disposables.create()
+        }
+    }
 }
