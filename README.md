@@ -37,3 +37,15 @@ Google 認証をiOSアプリ内で行うサンプル
 Swift
 ### 内容
 RxSwift, RxCocoaの練習用.
+
+## PresentationControllerSample
+### 言語
+Swift
+### 内容
+UIPresentationControllerの実装サンプル
+
+## GestureSample
+### 言語
+Swift
+### 内容
+UIGestureRecognizerをいろいろ使ってみたサンプル
