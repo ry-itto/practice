@@ -1,0 +1,16 @@
+name: XcodeGenSample
+options:
+  bundleIdPrefix: com.ry-itto
+fileGroups:
+  - configs
+configFiles:
+  Debug: configs/Debug.xcconfig
+  Release: configs/Release.xcconfig
+targets:
+  XcodeGenSample:
+    type: application
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: XcodeGenSample
+    settings:
+      CURRENT_PROJECT_VERSION: 1

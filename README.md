@@ -49,3 +49,9 @@ UIPresentationControllerの実装サンプル
 Swift
 ### 内容
 UIGestureRecognizerをいろいろ使ってみたサンプル
+
+## LocationSample
+### 言語
+Swift
+### 内容
+位置情報を取得するサンプル
