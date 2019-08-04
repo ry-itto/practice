@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../VOYAGE_Summer_mokumoku" />
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../../treasure2019-pre" />
+    <content url="file://$MODULE_DIR$/../../univ/alg2/ex11" />
+    <content url="file://$MODULE_DIR$/../../univ/alg2/ex12" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
