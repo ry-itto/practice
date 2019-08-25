@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Documents/treasure2019" />
     <content url="file://$MODULE_DIR$/../../VOYAGE_Summer_mokumoku" />
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../../treasure2019" />
     <content url="file://$MODULE_DIR$/../../treasure2019-pre" />
     <content url="file://$MODULE_DIR$/../../univ/alg2/ex11" />
     <content url="file://$MODULE_DIR$/../../univ/alg2/ex12" />

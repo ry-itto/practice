@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="346b5ebe-b4ea-4fdb-98e3-f4fb5a93f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/atcoder/go/atcoder_20190810/a.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcoder/go/atcoder_20190810/b.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcoder/go/atcoder_20190810/c.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcoder/go/atcoder_20190810/d.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prog_compe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prog_compe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +11,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="prog_compe" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,9 +25,6 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1OfoePRsUQJImtiz6BwkYDJkB4X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,10 +49,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Documents/treasure2019/day1/HTTP" />
+      <recent name="$USER_HOME$/Documents/treasure2019/day1" />
       <recent name="$PROJECT_DIR$/../../treasure2019-pre/answers/ry-itto/go/q2/page" />
       <recent name="$PROJECT_DIR$/../../univ/alg2/ex12/source_codes" />
       <recent name="$PROJECT_DIR$/../../VOYAGE_Summer_mokumoku/go" />
@@ -72,31 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build c.go (1)">
-    <configuration name="go build a.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="prog_compe" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atcoder/go/atcoder_20190810/a.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build b.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="prog_compe" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atcoder/go/atcoder_20190810/b.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build b.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="prog_compe" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atcoder/go/atcoder_20190804/b.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build server.go (1)">
     <configuration name="go build c.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="prog_compe" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -105,21 +82,45 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build c.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build curl.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="prog_compe" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atcoder/go/atcoder_20190804/c.go" />
+      <filePath value="$USER_HOME$/Documents/treasure2019/curl.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build db.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="prog_compe" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$USER_HOME$/Documents/treasure2019/day1/DB/db.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="prog_compe" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$USER_HOME$/Documents/treasure2019/day1/HTTP/server.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="prog_compe" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$USER_HOME$/Documents/treasure2019/server.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build server.go (1)" />
+        <item itemvalue="Go Build.go build db.go" />
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build curl.go" />
         <item itemvalue="Go Build.go build c.go (1)" />
-        <item itemvalue="Go Build.go build b.go (1)" />
-        <item itemvalue="Go Build.go build a.go (1)" />
-        <item itemvalue="Go Build.go build c.go" />
-        <item itemvalue="Go Build.go build b.go" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,7 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-    <proxy>direct</proxy>
+    <proxy>off</proxy>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
