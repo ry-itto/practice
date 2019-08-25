@@ -64,7 +64,7 @@ VisionFrameworkのサンプル。[記事](https://qiita.com/shtnkgm/items/43e975
 
 ## sample-react-native
 ### 言語
-JavaScript, Swift
+JavaScript
 ### 内容
-React Native でいい感じの見た目・機能を実装してみたサンプル
+React Native でいい感じの見た目を実装してみたサンプル。expo。
 
