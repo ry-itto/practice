@@ -6,9 +6,10 @@
  */
 
 #import <React/RCTBridgeDelegate.h>
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import Firebase;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, RCTBridgeDelegate>
+@interface AppDelegate : UIResponder<UIApplicationDelegate, FIRMessagingDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 
